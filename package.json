@@ -1,0 +1,22 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "fcc api project 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-master5/TimestampMicroservice.git"
+  },
+  "author": "code_master5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-master5/TimestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/code-master5/TimestampMicroservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
