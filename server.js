@@ -1,7 +1,7 @@
 const express = require('express');
 
 var app = express();
-var port = 8080;
+var port = process.env.PORT || 8080;
 
 var monthNames = [ "January", "February", "March", "April", "May", "June", 
                        "July", "August", "September", "October", "November", "December" ];
@@ -52,5 +52,5 @@ app.all('/:timestamp', function (request, response) {
     response.end(JSON.stringify(timeObj));
 });
 
-app.listen(3000);
+app.listen(port);
 
