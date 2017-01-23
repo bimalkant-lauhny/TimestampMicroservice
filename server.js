@@ -49,7 +49,7 @@ app.all('/:timestamp', function (request, response) {
         }
     }
 
-    response.end(JSON.stringify(timeObj));
+    response.send(timeObj);
 });
 
 app.listen(port);
