@@ -42,7 +42,7 @@ app.all('/:timestamp', function (request, response) {
                 timeObj["unix"] = unixTime;
                 
                 var dt = new Date(unixTime * 1000);
-                timeObj["natural"] = monthNames[dt.getMonth()] + dt.getDate() + ", " + dt.getFullYear();
+                timeObj["natural"] = monthNames[dt.getMonth()] + " " + dt.getDate() + ", " + dt.getFullYear();
             } 
         } catch (err2) {
             console.log(err2);
